@@ -122,43 +122,8 @@ hparams = tf.contrib.training.HParams(
 
 	#Eval sentences
 	sentences = [
-	# From July 8, 2017 New York Times:
-	'Scientists at the CERN laboratory say they have discovered a new particle.',
-	'There\'s a way to measure the acute emotional intelligence that has never gone out of style.',
-	'President Trump met with other leaders at the Group of 20 conference.',
-	'The Senate\'s bill to repeal and replace the Affordable Care Act is now imperiled.',
-	# From Google's Tacotron example page:
-	'Generative adversarial network or variational auto-encoder.',
-	'Basilar membrane and otolaryngology are not auto-correlations.',
-	'He has read the whole thing.',
-	'He reads books.',
-	"Don't desert me here in the desert!",
-	'He thought it was time to present the present.',
-	'Thisss isrealy awhsome.',
-	'Punctuation sensitivity, is working.',
-	'Punctuation sensitivity is working.',
-	"The buses aren't the problem, they actually provide a solution.",
-	"The buses aren't the PROBLEM, they actually provide a SOLUTION.",
-	"The quick brown fox jumps over the lazy dog.",
-	"Does the quick brown fox jump over the lazy dog?",
 	"Peter Piper picked a peck of pickled peppers. How many pickled peppers did Peter Piper pick?",
 	"She sells sea-shells on the sea-shore. The shells she sells are sea-shells I'm sure.",
-	"The blue lagoon is a nineteen eighty American romance adventure film.",
-	"Tajima Airport serves Toyooka.",
-	'Talib Kweli confirmed to AllHipHop that he will be releasing an album in the next year.',
-	#From Training data:
-	'the rest being provided with barrack beds, and in dimensions varying from thirty feet by fifteen to fifteen feet by ten.',
-	'in giltspur street compter, where he was first lodged.',
-	'a man named burnett came with his wife and took up his residence at whitchurch, hampshire, at no great distance from laverstock,',
-	'it appears that oswald had only one caller in response to all of his fpcc activities,',
-	'he relied on the absence of the strychnia.',
-	'scoggins thought it was lighter.',
-	'''would, it is probable, have eventually overcome the reluctance of some of the prisoners at least, 
-	and would have possessed so much moral dignity''',
-	'''the only purpose of this whole sentence is to evaluate the scalability of the model for very long sentences. 
-	This is not even a long sentence anymore, it has become an entire paragraph. 
-	Should I stop now? Let\'s add this last sentence in which we talk about nothing special.''',
-	'Thank you so much for your support!!'
 	]
 
 	)
