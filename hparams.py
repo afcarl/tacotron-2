@@ -1,6 +1,15 @@
 import tensorflow as tf 
 import numpy as np 
 
+# read the utterances to speak as a list
+def read_sentence_list():
+	result_list = []
+	with open('speak_data.txt', 'rt') as reader:
+		for line in reader:
+			if len(line.strip()) > 0:
+				result_list.append(line.strip())
+	return result_list
+
 
 # Default hyperparameters
 hparams = tf.contrib.training.HParams(
@@ -121,10 +130,7 @@ hparams = tf.contrib.training.HParams(
 
 
 	#Eval sentences
-	sentences = [
-	"Peter Piper picked a peck of pickled peppers. How many pickled peppers did Peter Piper pick?",
-	"She sells sea-shells on the sea-shore. The shells she sells are sea-shells I'm sure.",
-	]
+	sentences = read_sentence_list()
 
 	)
 
